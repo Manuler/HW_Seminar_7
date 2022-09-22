@@ -6,7 +6,7 @@ namespace Task_1
     {
         static void Main(string[] args)
         {
-            double [,] GetArray(int row, int col)
+            double [,] GetArrayRandomDouble(int row, int col)
             {
                 double[,] array = new double [row, col];
                 for (int i = 0; i < row; i++)
@@ -44,7 +44,7 @@ namespace Task_1
             
             if (ifParseOk && ifParseOk2)
             {
-                GetArray(n, m);
+                GetArrayRandomDouble(n, m);
             }
             else
             {
